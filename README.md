@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps to run application :
 
-Things you may want to cover:
+Given you have Ruby and Ruby on Rails installed
 
-* Ruby version
+1) Clone  git repository
+git clone https://github.com/MarwanASalem/RailsTodolistTask
 
-* System dependencies
+2) Install all dependencies
+bundle install
 
-* Configuration
+3) Create db and migrate schema
+rake db:create
+rake db:migrate
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4) Run application
+rails s
